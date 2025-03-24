@@ -1,0 +1,152 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+  
+  .navbar .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    background: url('hotel-hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .hero .hero-content h2 {
+    font-size: 50px;
+    margin: 0;
+  }
+  
+  .hero .hero-content p {
+    font-size: 20px;
+  }
+  .hero .cta-button {
+    padding: 10px 20px;
+    background-color: #ff1500;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .hero .cta-button:hover {
+    background-color: #d75046;
+  }
+  .about-us {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .about-us p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  .about-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .rooms {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .rooms h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  table img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  .hero {
+    text-align: center;
+    background-image: url('file:///C:/Users/gonda/Pictures/Screenshots/Screenshot%202025-03-23%20210107.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 2rem;
+    opacity: 0.7;
+}
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: #f96e61;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
