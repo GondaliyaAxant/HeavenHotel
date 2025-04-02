@@ -39,17 +39,18 @@ body {
   .navbar .nav-links a:hover {
     text-decoration: underline;
   }
-  .hero {
-    background: url('hotel-hero.jpg') no-repeat center center/cover;
-    height: 100vh;
-    color: white;
+  .hero-content {
     text-align: center;
+    background-image: url('file:///C:/Users/gonda/OneDrive/Pictures/HotelHeaven.png');
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
     flex-direction: column;
+    padding: 5rem 2rem;
+    opacity: 0.7;
   }
-  
   .hero .hero-content h2 {
     font-size: 50px;
     margin: 0;
