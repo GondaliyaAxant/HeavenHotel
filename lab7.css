@@ -39,24 +39,93 @@ body {
   .navbar .nav-links a:hover {
     text-decoration: underline;
   }
+  .booking-form {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .booking-form form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .booking-form button:hover {
+    background-color: #d75046;
+  }
+  
   .hero-content {
     text-align: center;
     background-image: url('https://media.istockphoto.com/id/104731717/photo/luxury-resort.jpg?s=612x612&w=0&k=20&c=cODMSPbYyrn1FHake1xYz9M8r15iOfGz9Aosy9Db7mI=');
-    height: 75vh;
+    height: 78vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-size: cover;
     flex-direction: column;
     padding: 5rem 2rem;
-    opacity: 0.7;
   }
+  .booking-form {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .booking-form button {
+    padding: 12px 20px;
+    background-color: #ff1500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: #d75046;
+  }
+  
+  .hero {
+    text-align: center;
+    background-image: url('file:///C:/Users/gonda/Pictures/Screenshots/Screenshot%202025-03-23%20210107.png');
+    opacity: 0.5;
+}
   .hero .hero-content h2 {
     font-size: 50px;
     margin: 0;
   }
-  
-  .hero .hero-content p {
+  .hero .hero-content h3 {
     font-size: 20px;
   }
   .hero .cta-button {
@@ -67,6 +136,8 @@ body {
     text-decoration: none;
     border-radius: 5px;
   }
+  
+  
   .hero .cta-button:hover {
     background-color: #d75046;
   }
@@ -130,15 +201,7 @@ body {
     color: white;
     padding: 20px 0;
   }
-  .hero {
-    text-align: center;
-    background-image: url('file:///C:/Users/gonda/Pictures/Screenshots/Screenshot%202025-03-23%20210107.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 5rem 2rem;
-    opacity: 0.7;
-}
+ 
   footer p {
     margin: 5px 0;
   }
