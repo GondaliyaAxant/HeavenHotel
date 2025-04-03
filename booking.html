@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now - The Heaven Hotel</title>
+  <link rel="stylesheet" href="lab7.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <h1>The Heaven Hotel</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#rooms">Rooms</a></li>
+      <li><a href="index.html#about-us">About Us</a></li>
+      <li><a href="index.html#contact-us">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="booking-form">
+    <h2>Book Your Stay</h2>
+    <form action="#" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="number">Mobile Number:</label>
+      <input type="text" id="number" name="number" placeholder="Enter your Mobile Number" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="check-in">Check-in Date:</label>
+      <input type="date" id="check-in" name="check-in" required>
+
+      <label for="check-out">Check-out Date:</label>
+      <input type="date" id="check-out" name="check-out" required>
+
+      <label for="room">Select Room Type:</label>
+      <select id="room" name="room" required>
+        <option value="deluxe">Deluxe Room</option>
+        <option value="suite">Suite</option>
+        <option value="standard">Standard Room</option>
+      </select>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Heaven Hotel | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
