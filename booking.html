@@ -13,11 +13,12 @@
     </div>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="index.html#rooms">Rooms</a></li>
+      <li><a href="room.html">Rooms</a></li>
       <li><a href="index.html#about-us">About Us</a></li>
       <li><a href="index.html#contact-us">Contact Us</a></li>
     </ul>
   </nav>
+  <div class="fake-header"></div>
 
   <section class="booking-form">
     <h2>Book Your Stay</h2>
@@ -42,7 +43,15 @@
         <option value="deluxe">Deluxe Room</option>
         <option value="suite">Suite</option>
         <option value="standard">Standard Room</option>
-      </select>
+        </select>
+
+        <label for="room-number">Select Room Number:</label>
+      <select id="room-number" name="room-number" required>
+        <option value="1">H1</option>
+        <option value="2">H2</option>
+        <option value="3">H3</option>
+        <option value="4">H4</option>
+        </select>
 
       <button type="submit">Confirm Booking</button>
     </form>
