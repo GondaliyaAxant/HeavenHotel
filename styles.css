@@ -193,6 +193,8 @@ body {
   
   .icons img:hover {
     transform: translateY(-1px);
+      border-radius: 50%;
+    background-color:  #ff8000;
     opacity: 0.7;
   }
   
