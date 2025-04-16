@@ -232,7 +232,7 @@ body {
   footer a:hover {
     text-decoration: underline;
   }
-  .foo{
+  footer .foo{
     display: flex;
     justify-content: space-between;
     width: 40%;
