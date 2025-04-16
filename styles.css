@@ -172,12 +172,12 @@ body {
   .hero .cta-button:hover {
     background-color: #9c0a00;
   }
-  .rooms {
+  .rooms1 {
     padding: 40px 20px;
     background-color: #f8f8f8;
   }
   
-  .rooms h2 {
+  .rooms1 h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
