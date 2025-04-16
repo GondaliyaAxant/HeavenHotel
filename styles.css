@@ -187,8 +187,10 @@ body {
   }
   
   .icons img {
-    width: 24px;
-    height: 24px;
+      background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
   }
   
   .icons img:hover {
