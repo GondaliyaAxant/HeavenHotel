@@ -1,11 +1,10 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
   }
-
+  
   .logo {
     display: flex;
     align-items: center;
@@ -29,6 +28,7 @@ body {
     padding: 10px 20px;
     z-index: 1000;
   }
+  
   .fake-header {
     background-color: #ffffff;
     color: white;
@@ -37,15 +37,14 @@ body {
     position: relative;
     text-align: center;
     font-weight: bold;
-    position: relative;
     z-index: 1;
-}
+  }
+  
   .navbar .logo h1 {
-    color: #fff;
+    color: #c37800;
     font-size: 50px;
     margin: 0;
     font-family: 'Playfair Display', serif;
-    color: #c37800;
   }
   
   .navbar .nav-links {
@@ -64,7 +63,7 @@ body {
     font-size: 18px;
     padding: 10px 20px;
     transition: all 0.3s ease;
-    border-radius: 10px; 
+    border-radius: 10px;
   }
   
   .navbar .nav-links a:hover {
@@ -74,49 +73,7 @@ body {
     padding: 10px 20px;
     font-size: 18px;
   }
-  .booking-form {
-    padding: 40px 20px;
-    background-color: #fff;
-    text-align: center;
-  }
   
-  .booking-form form {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .booking-form input,
-  .booking-form select {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  
-  
-  .booking-form button:hover {
-    background-color: #950a00;
-  }
-  
-  .hero-content {
-    text-align: center;
-    background-image: url('https://images.trvl-media.com/lodging/18000000/17450000/17442800/17442701/f2c5f58d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill');
-    height: 78vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    flex-direction: column;
-    font-family: 'Playfair Display', serif;
-    padding: 5rem 2rem;
-    color: #ffffff;
-  }
   .booking-form {
     padding: 40px 20px;
     background-color: #fff;
@@ -152,13 +109,30 @@ body {
   .booking-form button:hover {
     background-color: #d75046;
   }
+  
+  .hero-content {
+    text-align: center;
+    background-image: url('https://images.trvl-media.com/lodging/18000000/17450000/17442800/17442701/f2c5f58d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill');
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    padding: 5rem 2rem;
+    color: #ffffff;
+  }
+  
   .hero .hero-content h2 {
     font-size: 50px;
     margin: 0;
   }
+  
   .hero .hero-content h3 {
     font-size: 20px;
   }
+  
   .hero .cta-button {
     padding: 10px 20px;
     background-color: #ff1500;
@@ -168,10 +142,10 @@ body {
     border-radius: 5px;
   }
   
-  
   .hero .cta-button:hover {
     background-color: #9c0a00;
   }
+  
   .rooms1 {
     padding: 40px 20px;
     background-color: #f8f8f8;
@@ -181,6 +155,11 @@ body {
     text-align: center;
     font-size: 36px;
     margin-bottom: 20px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+    width: 100%;
   }
   
   table {
@@ -205,21 +184,24 @@ body {
     height: auto;
     border-radius: 5px;
   }
-
+  
   footer {
     text-align: center;
     background-color: #333;
     color: white;
     padding: 20px 0;
   }
- .icons img{
+  
+  .icons img {
     width: 24px;
     height: 24px;
- }
- .icons img:hover {
+  }
+  
+  .icons img:hover {
     transform: translateY(-1px);
     opacity: 0.7;
   }
+  
   footer p {
     margin: 5px 0;
   }
@@ -230,13 +212,18 @@ body {
   }
   
   footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline;
   }
-  footer .foo{
+  
+  footer .foo {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    width: 40%;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
+  
   .contact-info {
     flex: 1 1 250px;
     font-size: 16px;
@@ -248,6 +235,30 @@ body {
     justify-content: center;
     text-align: left;
   }
+  
+  .contact-info1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .contact-info1 p {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .contact-info1 img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
   .deluxe-rooms {
     padding: 40px 20px;
     background-color: #f8f8f8;
@@ -258,6 +269,7 @@ body {
     font-size: 36px;
     margin-bottom: 20px;
   }
+  
   .room-list {
     padding: 40px 20px;
     background-color: #f4f4f4;
@@ -268,7 +280,8 @@ body {
     font-size: 30px;
     color: #333;
     margin: 20px 0;
-  } 
+  }
+  
   .rooms {
     display: flex;
     gap: 20px;
@@ -284,7 +297,7 @@ body {
     text-align: center;
     transition: transform 0.3s ease;
   }
-
+  
   .room-item:hover {
     transform: translateY(-10px);
   }
@@ -301,7 +314,7 @@ body {
     color: #000;
     margin: 10px 0;
   }
-
+  
   .room-item h4 {
     font-size: 18px;
     color: #000;
@@ -327,6 +340,7 @@ body {
   .cta-button:hover {
     background-color: #9c0a00;
   }
+  
   .details-button {
     display: inline-block;
     padding: 10px 20px;
@@ -336,15 +350,18 @@ body {
     text-decoration: none;
     transition: 0.3s;
   }
+  
   .details-button:hover {
     background-color: #ad6b00;
   }
+  
   .rooms-flex {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
   }
+  
   .facilities {
     list-style-type: none;
     padding: 0;
@@ -362,6 +379,7 @@ body {
     position: absolute;
     left: 0;
   }
+  
   .about-us {
     padding: 60px 20px;
     background-color: #fff;
@@ -402,7 +420,8 @@ body {
       align-items: flex-start;
     }
   
-    .about-text, .about-image {
+    .about-text,
+    .about-image {
       flex: 1;
       max-width: 50%;
     }
@@ -412,122 +431,203 @@ body {
     }
   }
   
-.contact-us {
-  background-color: #f9f9f9;
-  padding: 60px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.contact-us h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-.contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  width: 50%;
-}
-
-.contact-form {
-  flex: 1 1 400px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: #ffffff;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 16px;
-  font-family: 'Segoe UI', sans-serif;
-  transition: border-color 0.3s;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: #b58f1a;
-  outline: none;
-}
-
-.contact-form button {
-  background-color: #b58f1a;
-  color: white;
-  padding: 14px;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-  background-color: #9f7810;
-}
-
-.facilities1 {
-  padding: 50px 20px;
-  background-color: #f5f5f5;
-  text-align: center;
-}
-
-.facilities1 h2 {
-  font-size: 2.5em;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-.facility-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-}
-
-.facility-item {
-  background-color: #fff;
-  border-radius: 10px;
-  width: 300px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  overflow: hidden;
-  text-align: center;
-  padding-bottom: 20px;
-  transition: transform 0.3s;
-}
-
-.facility-item:hover {
-  transform: translateY(-10px);
-}
-
-.facility-item img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.facility-item h3 {
-  margin-top: 15px;
-  font-size: 1.3em;
-  color: #444;
-}
-
-.facility-item p {
-  padding: 0 15px;
-  color: #666;
-}
+  .contact-us {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact-us h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 50%;
+  }
+  
+  .contact-form {
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    transition: border-color 0.3s;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #b58f1a;
+    outline: none;
+  }
+  
+  .contact-form button {
+    background-color: #b58f1a;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #9f7810;
+  }
+  
+  .facilities1 {
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .facilities1 h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .facility-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .facility-item {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .facility-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .facility-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .facility-item h3 {
+    margin-top: 15px;
+    font-size: 1.3em;
+    color: #444;
+  }
+  
+  .facility-item p {
+    padding: 0 15px;
+    color: #666;
+  }
+  
+  /* ✅ RESPONSIVE MEDIA QUERIES */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .navbar .nav-links {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding-top: 10px;
+    }
+  
+    .navbar .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .hero-content {
+      padding: 2rem 1rem;
+      height: auto;
+      text-align: center;
+    }
+  
+    .hero-content h2 {
+      font-size: 32px;
+    }
+  
+    .hero-content h3 {
+      font-size: 18px;
+    }
+  
+    .rooms,
+    .facility-list,
+    .about-content,
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .room-item,
+    .facility-item {
+      width: 90%;
+      margin: 10px 0;
+    }
+  
+    .about-text,
+    .contact-form {
+      width: 90%;
+    }
+  
+    .contact-us {
+      padding: 30px 10px;
+    }
+  
+    .contact-container {
+      width: 100%;
+    }
+  
+    footer .foo {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .contact-info {
+      margin-left: 0;
+    }
+  
+    .table-wrapper {
+      overflow-x: auto;
+      width: 100%;
+    }
+  
+    table {
+      min-width: 600px;
+    }
+  }
+  
