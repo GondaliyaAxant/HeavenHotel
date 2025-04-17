@@ -4,7 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Now - The Heaven Hotel</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="lab7.css">
+  <style>
+    .date-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .date-input {
+      flex: 1;
+      min-width: 200px;
+    }
+    .booking-form form {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+    }
+    .booking-form form label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    .booking-form form input,
+    .booking-form form select,
+    .booking-form form button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+    .booking-form button {
+  padding: 12px 20px;
+  background-color: #ff1500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.booking-form button:hover {
+  background-color: #d75046;
+}
+  </style>
 </head>
 <body>
   <nav class="navbar">
@@ -21,59 +63,70 @@
     </ul>
   </nav>
   <div class="fake-header"></div>
-
   <section class="booking-form">
-    <h2>Book Your Stay</h2>
+    <div class="formheader">
+      <h2>Book Your Stay</h2>
+    </div>
     <form action="#" method="post">
       <label for="name">Full Name:</label>
       <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-
       <label for="number">Mobile Number:</label>
       <input type="text" id="number" name="number" placeholder="Enter your Mobile Number" required>
-
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
-      <label for="check-in">Check-in Date:</label>
-      <input type="date" id="check-in" name="check-in" required>
-
-      <label for="check-out">Check-out Date:</label>
-      <input type="date" id="check-out" name="check-out" required>
-
+      <div class="date-row">
+        <div class="date-input">
+          <label for="check-in">Check-in Date:</label>
+          <input type="date" id="check-in" name="check-in" required>
+        </div>
+        <div class="date-input">
+          <label for="check-out">Check-out Date:</label>
+          <input type="date" id="check-out" name="check-out" required>
+        </div>
+      </div>
       <label for="room">Select Room Type:</label>
       <select id="room" name="room" required>
+        <option value="deluxe">-Select-</option>
         <option value="deluxe">Deluxe Room</option>
         <option value="suite">Suite</option>
         <option value="standard">Standard Room</option>
-        </select>
-
-        <label for="room-number">Select Room Number:</label>
+      </select>
+      <label for="room-number">Select Room Number:</label>
       <select id="room-number" name="room-number" required>
+        <option value="1">-Select-</option>
         <option value="1">H1</option>
         <option value="2">H2</option>
         <option value="3">H3</option>
         <option value="4">H4</option>
-        </select>
-
+      </select>
+      <label for="payment">Payment Method:</label>
+      <select id="payment" name="payment" required>
+        <option value="credit">-Select-</option>
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="upi">UPI</option>
+        <option value="netbanking">Net Banking</option>
+        <option value="cash">Pay at Hotel</option>
+      </select>
       <button type="submit">Confirm Booking</button>
     </form>
   </section>
   <footer>
     <div class="foo">
-    <div class="contact-info">
-      <p><strong>Phone:</strong> +91 98765 567890</p>
-      <p><strong>Email:</strong> info@heavenhotel.com</p>
-      <p><strong>Address:</strong> 123 Paradise Road, Goa, India</p>
-    </div>
-    <div class="icons">
+      <div class="contact-info">
+        <p><strong>Phone:</strong> +91 98765 567890</p>
+        <p><strong>Email:</strong> info@heavenhotel.com</p>
+        <p><strong>Address:</strong> 123 Paradise Road, Goa, India</p>
+      </div>
+      <div class="icons">
         <h3>Follow Us</h3>
-    <img src="https://cdn-icons-png.flaticon.com/128/665/665209.png" alt="Facebook">
+        <img src="https://cdn-icons-png.flaticon.com/128/665/665209.png" alt="Facebook">
         <img src="https://cdn-icons-png.flaticon.com/128/3670/3670274.png" alt="Instagram">
         <img src="https://cdn-icons-png.flaticon.com/128/15522/15522333.png" alt="YouTube">
         <img src="https://cdn-icons-png.flaticon.com/128/665/665228.png" alt="Twitter">
-</div>
-</div>
-<p>&copy; 2025 The Heaven Hotel | All Rights Reserved</p>
+      </div>
+    </div>
+    <p>&copy; 2025 The Heaven Hotel | All Rights Reserved</p>
   </footer>
 </body>
 </html>
